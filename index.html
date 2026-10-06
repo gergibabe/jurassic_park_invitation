@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <title>Jurassic Dark — Invitation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="invitation" aria-label="Jurassic Dark invitation">
+      <div class="scene" id="scene">
+        <div class="shadow"></div>
+
+        <button class="postcard" id="openButton" type="button"
+                aria-label="Open the invitation"
+                aria-expanded="false">
+          <img src="assets/postcard.png" alt="Jurassic Dark invitation postcard">
+        </button>
+
+        <div class="vhs-wrap" aria-hidden="true">
+          <div class="vhs-card">
+            <img src="assets/vhs.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="hint" id="hint">Click the postcard to open</div>
+      </div>
+
+      <button class="replay" id="replayButton" type="button">↻ Replay</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
